@@ -1,0 +1,194 @@
+body {
+    background-image: url(../css/PIC_SOUCRE/download_enhanced.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+    align-items: center;
+    
+}
+
+form h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #64b3ad;
+}
+
+
+    #box3 {
+        width: 50%;
+        margin: 20px auto;
+        padding: 20px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        background-color: rgb(95, 174, 164);
+    }
+
+    #box4 {
+        margin-bottom: 20px;
+    }
+
+    form {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    input[type="password"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+
+    .p3 {
+        margin-right: 10px;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    #submit,
+    #exit {
+        padding: 10px 20px;
+        margin: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(20, 20, 20);
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    #submit:hover,
+    #exit:hover {
+        background-color: rgb(122, 122, 122);
+    }
+
+
+#no_acc{
+    text-align: center;
+    font-weight: lighter;
+
+}
+
+.resultphp{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #5bd6c8;
+  }
+  
+
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #232323;
+    border-radius: 50px;
+  }
+  
+  .checkmark:hover {
+    background-color: #eeeeee;
+  }
+  
+  .container input:checked ~ .checkmark {
+    background-color: #5bd6c8;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(0, 0, 0);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  input[type="date"] {
+    width: 40%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="time"] {
+    width: 40%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
